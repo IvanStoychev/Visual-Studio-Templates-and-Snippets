@@ -8,6 +8,7 @@ This is a collection of item and project templates for Visual Studio that I find
 _**Item template**_
 <br/>Copy the item template `*.zip` file to:
 `%UserProfile%\Documents\Visual Studio {edition}\Templates\ItemTemplates`, where `{edition}` is the edition of Visual Studio for which you want to install the template (e.g. "2019").
+<br/>The template will be available the next time you start Visual Studio.
 
 <br/>Optionally you may place it in any of the folders located there, for example "Visual C#".
 <br/>If you wish to separate your templates by any other way, than the default provided by Visual Studio, you can create additional folders inside "ItemTemplates" which will show up in the "Add New Item" window.
@@ -17,6 +18,7 @@ _**Item template**_
 _**Project template**_
 <br/>Copy the project template `*.zip` file to:
 `%UserProfile%\Documents\Visual Studio {edition}\Templates\ProjectTemplates`, where `{edition}` is the edition of Visual Studio for which you want to install the template (e.g. "2019").
+<br/>The template will be available the next time you start Visual Studio.
 
 <br/>Optionally you may place it in any of the folders located there, for example "Visual C#".
 
