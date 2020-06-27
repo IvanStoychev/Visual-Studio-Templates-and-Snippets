@@ -25,4 +25,5 @@ _**Project template**_
 <br/>**Note!** Be advised that as of Visual Studio 2019 16.4.0 searching for project templates using the search box does not seem to function as expected. You can locate the templates by filtering by language, platform and project type or by scrolling to the bottom of the unfiltered list.
 
 ## How to use
-Item templates can be found by adding a new item to a project in the "Add New Item" window, while project templates are found by adding a new project to the solution, in the "Add a new project" window. Once added they are ready-to-use pieces of code or project.
+To use any template - simply add it to your solution.
+<br/>Item templates can be found by adding a new item to a project in the "Add New Item" window, while project templates are found by adding a new project to the solution, in the "Add a new project" window. Once added they are ready-to-use pieces of code.
