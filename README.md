@@ -35,4 +35,4 @@ Any ideas for improvement of existing templates or for addition of new templates
 
 If you think it's useful and a lot of people might benefit from it - open an issue of a pull request.
 
-[1](https://github.com/IvanStoychev/Visual-Studio-Templates-and-Snippets/wiki)
+[1]: https://github.com/IvanStoychev/Visual-Studio-Templates-and-Snippets/wiki
