@@ -27,3 +27,8 @@ _**Project template**_
 ## How to use
 To use any template - simply add it to your solution.
 <br/>Item templates can be found by adding a new item to a project in the "Add New Item" window, while project templates are found by adding a new project to the solution, in the "Add a new project" window. Once added they are ready-to-use pieces of code.
+
+## Contributing
+Any ideas for improvement of existing templates or for addition of new templates is welcome.
+
+If you think it's useful and a lot of people might benefit from it - open an issue of a pull request.
