@@ -1,4 +1,4 @@
-# Visual-Studio-Templates
+# Visual Studio Templates
 
 ## Introduction
 This is a collection of item and project templates for Visual Studio that I find useful.
