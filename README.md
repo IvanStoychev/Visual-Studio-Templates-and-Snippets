@@ -1,10 +1,15 @@
 # Visual Studio Templates and Code Snippets
 
 ## Introduction
-This is a collection of item and project templates for Visual Studio that I find useful.
-<br/>They work by automatically scaffolding widely-used classes and project structures when added to your solution.
+This is a collection of code snippets, item and project templates for Visual Studio that I find useful.
+<br/>They work by automatically scaffolding widely-used code, classes and project structures when added to your solution.
 
 ## Installation
+_**Code snippet**_
+<br/>Import the `*.snippet` to Visual Studio by using the "Import" button in the "Code Snippets Manager" (Tools > Code Snippets Manager).
+<br/>-or-
+<br/>Copy the `*.snippet` file to `%UserProfile%\Documents\Visual Studio {edition}\Code Snippets\{language}`, where `{edition}` is the edition of Visual Studio for which you want to install the template (e.g. "2019") and `{language}` is the language for which the snippet has been written.
+
 _**Item template**_
 <br/>Copy the item template `*.zip` file to:
 `%UserProfile%\Documents\Visual Studio {edition}\Templates\ItemTemplates`, where `{edition}` is the edition of Visual Studio for which you want to install the template (e.g. "2019").
@@ -25,13 +30,15 @@ _**Project template**_
 <br/>**Note!** Be advised that as of Visual Studio 2019 16.4.0 searching for project templates using the search box does not seem to function as expected. You can locate the templates by filtering by language, platform and project type or by scrolling to the bottom of the unfiltered list.
 
 ## How to use
+To use a code snippet - make sure you are using the appropriate language then type its shortcut and press "Tab" twice. The code associated with the snipped will replace its shortcut.
+
 To use any template - simply add it to your solution.
 <br/>Item templates can be found by adding a new item to a project in the "Add New Item" window, while project templates are found by adding a new project to the solution, in the "Add a new project" window. Once added they are ready-to-use pieces of code.
 
-Detailed desctiption of each template or snippets can be found in the [wiki][1].
+Detailed desctiption of each template and snippet can be found in the [wiki][1].
 
 ## Contributing
-Any ideas for improvement of existing templates or for addition of new templates is welcome.
+Any ideas for improvement of existing templates or snippets or for addition of new templates and snippets is welcome.
 
 If you think it's useful and a lot of people might benefit from it - open an issue of a pull request.
 
