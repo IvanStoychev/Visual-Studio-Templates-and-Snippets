@@ -7,7 +7,7 @@ This is a collection of code snippets, item and project templates for Visual Stu
 <br/>
 
 # Join the community
-[![GitQ](https://gitq.com/badge.svg)](https://gitq.com/IvanStoychev/IvanStoychev.StringExtensions) [![Join the chat at https://gitter.im/Visual-Studio-Templates-and-Snippets/community](https://badges.gitter.im/Visual-Studio-Templates-and-Snippets/community.svg)](https://gitter.im/Visual-Studio-Templates-and-Snippets/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Check out the discussion at https://gitq.com/IvanStoychev/Visual-Studio-Templates-and-Snippets](https://gitq.com/badge.svg)](https://gitq.com/IvanStoychev/Visual-Studio-Templates-and-Snippets) [![Join the chat at https://gitter.im/Visual-Studio-Templates-and-Snippets/community](https://badges.gitter.im/Visual-Studio-Templates-and-Snippets/community.svg)](https://gitter.im/Visual-Studio-Templates-and-Snippets/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <br/>
 
