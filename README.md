@@ -4,6 +4,13 @@
 This is a collection of code snippets, item and project templates for Visual Studio that I find useful.
 <br/>They work by automatically scaffolding widely-used code, classes and project structures when added to your solution.
 
+<br/>
+
+# Join the community
+[![GitQ](https://gitq.com/badge.svg)](https://gitq.com/IvanStoychev/IvanStoychev.StringExtensions)
+
+<br/>
+
 ## Installation
 _**Code snippet**_
 <br/>Import the `*.snippet` to Visual Studio by using the "Import" button in the "Code Snippets Manager" (Tools > Code Snippets Manager).
