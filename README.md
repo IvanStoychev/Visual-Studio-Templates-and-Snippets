@@ -40,7 +40,7 @@
 # 💬 Join the community
 [![Check out the discussion at https://gitq.com/IvanStoychev/Visual-Studio-Templates-and-Snippets](https://gitq.com/badge.svg)](https://gitq.com/IvanStoychev/Visual-Studio-Templates-and-Snippets)
 [![Join the chat at https://gitter.im/Visual-Studio-Templates-and-Snippets/community](https://badges.gitter.im/Visual-Studio-Templates-and-Snippets/community.svg)](https://gitter.im/Visual-Studio-Templates-and-Snippets/)
-[![Tweet @ivan_stoychev](https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fivan_stoychev)](https://twitter.com/ivan_stoychev)
+[![Tweet @ivan_stoychev](https://img.shields.io/twitter/url?label=My%20twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fivan_stoychev)](https://twitter.com/ivan_stoychev)
 
 <br/>
 
