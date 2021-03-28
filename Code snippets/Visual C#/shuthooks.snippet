@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Code snippet for setting up shutdown hooks.</Title>
+      <Author>Ivan Stoychev</Author>
+      <Description>Inserts a method that can be used to clean any unmanaged resources in the event of an unexpected shutdown and hooks all domain exit events to it.</Description>
+      <Shortcut>shuthooks</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+		/// <summary>
+		/// Sets up shutdown hooks, i.e. events to trigger when the application is shutting down.
+		/// </summary>
+        static void SetupShutdownHooks()
+        {
+            var domain = AppDomain.CurrentDomain;
+            domain.UnhandledException += CleanResources;
+            domain.ProcessExit += CleanResources;
+            domain.DomainUnload += CleanResources;
+        }
+
+        /// <summary>
+        /// Cleans (disposes, closes, finalises and etc.) all resources that must be taken care of in the
+        /// event of an unexpected process shutdown.
+        /// </summary>
+        /// <param name="sender">Unused parameter.</param>
+        /// <param name="e">Unused parameter.</param>
+        static void CleanResources(object sender, EventArgs e)
+        {
+            
+        }]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
