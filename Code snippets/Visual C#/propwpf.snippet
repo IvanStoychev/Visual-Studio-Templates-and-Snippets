@@ -9,30 +9,35 @@
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[private $Type$ $VariableName$;
+        <![CDATA[private $Type$ $fieldName$;
 
-        public $Type$ $VariableName$
+        public $Type$ $PropertyName$
         {
-            get => $VariableName$;
+            get => $fieldName$;
             set
             {
-                if ($VariableName$ != value)
+                if ($fieldName$ != value)
                 {
-                  $VariableName$ = value;
-                  OnPropertyChanged(nameof($VariableName$));
+                  $fieldName$ = value;
+                  OnPropertyChanged(nameof($PropertyName$));
                 }
             }
         }]]>
       </Code>
       <Declarations>
         <Literal>
-          <ID>VariableName</ID>
-          <ToolTip>Choose the name of the variable.</ToolTip>
-          <Default>VariableName</Default>
+          <ID>fieldName</ID>
+          <ToolTip>Choose the name of the backing field.</ToolTip>
+          <Default>fieldName</Default>
+        </Literal>
+        <Literal>
+          <ID>PropertyName</ID>
+          <ToolTip>Choose the name of the property.</ToolTip>
+          <Default>PropertyName</Default>
         </Literal>
         <Literal>
           <ID>Type</ID>
-          <ToolTip>Choose the type of the variable.</ToolTip>
+          <ToolTip>Choose the type of the property.</ToolTip>
           <Default>string</Default>
         </Literal>
       </Declarations>
