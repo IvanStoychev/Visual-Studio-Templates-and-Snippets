@@ -1,10 +1,7 @@
-<h1 align="center">
+<div align="center">
   <br>
     <img src="https://imgur.com/3lm0J5H.png" alt="Markdownify"></a>
-  <br>
-    Visual Studio Templates and Code Snippets
-  <br>
-</h1>
+</div>
 
 <p align="center">
   <a href="https://github.com/IvanStoychev/Visual-Studio-Templates-and-Snippets/branches">
