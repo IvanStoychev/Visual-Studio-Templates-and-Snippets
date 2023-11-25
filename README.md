@@ -39,7 +39,8 @@
 
 <br/>
 
-# 💬 Join the community
+💬 Join the community
+------------
 <div align="center">
   
 [![Follow @ivan_stoychev](https://img.shields.io/twitter/url?label=Follow%20%40ivan_stoychev&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ffollow%3Fscreen_name%3Divan_stoychev)](https://twitter.com/intent/follow?screen_name=ivan_stoychev)
@@ -50,7 +51,8 @@
 
 <br/>
 
-# :sparkling_heart: Support the project
+:sparkling_heart: Support the project
+------------
 <div align="center">
 
 [![Support me on Patreon](https://img.shields.io/badge/Patreon-support-orange)](https://www.patreon.com/IvanStoychev)
