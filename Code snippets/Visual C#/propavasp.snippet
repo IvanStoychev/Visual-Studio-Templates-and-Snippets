@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Avalonia MVVM styled property</Title>
+      <Author>Ivan Stoychev</Author>
+      <Description>Inserts an Avalonia styled property.</Description>
+      <Shortcut>propavasp</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp"
+            Kind="method decl">
+        <![CDATA[public static readonly StyledProperty<$Type$> $PropertyName$Property =
+            AvaloniaProperty.Register<$OwnerType$, $Type$>(nameof($PropertyName$));
+
+        public $Type$ $PropertyName$
+        {
+            get { return GetValue($PropertyName$Property); }
+            set { SetValue($PropertyName$Property, value); }
+        }]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>fieldName</ID>
+          <ToolTip>What you want the backing field to be called.</ToolTip>
+          <Default>fieldName</Default>
+        </Literal>
+        <Literal>
+          <ID>PropertyName</ID>
+          <ToolTip>What you want the property to be called.</ToolTip>
+          <Default>PropertyName</Default>
+        </Literal>
+        <Literal>
+          <ID>Type</ID>
+          <ToolTip>What should the property's data type be.</ToolTip>
+          <Default>string</Default>
+        </Literal>
+        <Literal>
+          <ID>OwnerType</ID>
+          <ToolTip>The class that owns this property (usually the class it is declared in).</ToolTip>
+          <Default>ClassNamePlaceholder</Default>
+          <Function>ClassName()</Function>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
