@@ -6,9 +6,13 @@
       <Author>Ivan Stoychev</Author>
       <Description>Inserts a method that can be used to clean any unmanaged resources in the event of an unexpected shutdown and hooks all domain exit events to it.</Description>
       <Shortcut>shuthooks</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
     </Header>
     <Snippet>
-      <Code Language="CSharp">
+      <Code Language="CSharp"
+            Kind="method decl">
         <![CDATA[
 		/// <summary>
 		/// Sets up shutdown hooks, i.e. events to trigger when the application is shutting down.

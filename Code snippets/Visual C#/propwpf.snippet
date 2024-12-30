@@ -4,11 +4,15 @@
     <Header>
       <Title>WPF MVVM property</Title>
       <Author>Ivan Stoychev</Author>
-      <Description>Inserts a WPF MVVM-style public property with backing field and property changed event trigger.</Description>
+      <Description>Inserts a WPF MVVM-style property with backing field and property changed event trigger.</Description>
       <Shortcut>propwpf</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
     </Header>
     <Snippet>
-      <Code Language="CSharp">
+      <Code Language="CSharp"
+            Kind="method decl">
         <![CDATA[private $Type$ $fieldName$;
 
         public $Type$ $PropertyName$
@@ -27,17 +31,17 @@
       <Declarations>
         <Literal>
           <ID>fieldName</ID>
-          <ToolTip>Choose the name of the backing field.</ToolTip>
+          <ToolTip>What you want the backing field to be called.</ToolTip>
           <Default>fieldName</Default>
         </Literal>
         <Literal>
           <ID>PropertyName</ID>
-          <ToolTip>Choose the name of the property.</ToolTip>
+          <ToolTip>What you want the property to be called.</ToolTip>
           <Default>PropertyName</Default>
         </Literal>
         <Literal>
           <ID>Type</ID>
-          <ToolTip>Choose the type of the property.</ToolTip>
+          <ToolTip>What should be the property's data type.</ToolTip>
           <Default>string</Default>
         </Literal>
       </Declarations>
